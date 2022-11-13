@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width,initial-scale=1.0">
+
+
+</head>
+
+
+<title>Plagiarism Detector</title>
+
+<!-- style css -->
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+
+
+
+<body>
+
+  <!-- wrapper -->
+  <div class="wrapper">
+    <h2 class="title orange">Plagiarism Detector</h2>
+
+    <form action="/report" method="POST">
+      <label>Paste your text here:</label>
+      <textarea for="fname" name='text' rows="2"></textarea>
+      <button type="Submit">Generate Report</button>
+    </form>
+
+    <div class="notes">
+      <p>You will be redirected once your report is generated.</p>
+
+      <p>Time to generate report depends on length of text.</p>
+    </div>
+  </div>
+  <!-- wrapper -->
+
+</body>
+
+</html>
