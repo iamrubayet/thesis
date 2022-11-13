@@ -5,7 +5,7 @@ import pandas as pd
 
 nltk.download('stopwords')
 nltk.download('punkt')
-stop_words = set(nltk.corpus.stopwords.words('english')) 
+stop_words = set(nltk.corpus.stopwords.words('bengali')) 
 
 def purifyText(string):
     words = nltk.word_tokenize(string)
