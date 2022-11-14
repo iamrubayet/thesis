@@ -1,4 +1,6 @@
-cd into the folder
+git clone https://github.com/iamrubayet/thesis.git
+
+cd into the thesis folder
 
 prompot cmd
 
